@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "sh -c 'node_modules/.bin/vite build' || npx --yes vite build",
+    "build": "node ./node_modules/vite/dist/node/cli.js build",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
