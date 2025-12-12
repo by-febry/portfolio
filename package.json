@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp dist/index.html dist/404.html",
+    "build": "npx vite build",
+    "postbuild": "cp dist/index.html dist/404.html 2>/dev/null || copy dist\\index.html dist\\404.html 2>nul || true",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
