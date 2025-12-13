@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import { FiX, FiGithub } from 'react-icons/fi'; // Install react-icons jika belum: npm install react-icons
+import { FiX, FiExternalLink } from 'react-icons/fi';
 
 const ProjectModal = ({ isOpen, onClose, project }) => {
-  // State untuk mengontrol animasi penutupan
+  // State to control closing animation
   const [isClosing, setIsClosing] = useState(false);
 
-  // Fungsi untuk menangani penutupan dengan animasi
+  // Function to handle closing with animation
   const handleClose = () => {
     setIsClosing(true);
-    // Tunggu animasi selesai (300ms) sebelum memanggil onClose dari props
+    //  
     setTimeout(() => {
       onClose();
-      setIsClosing(false); // Reset state untuk pembukaan berikutnya
+      setIsClosing(false); // Reset state for next opening
     }, 300);
   };
 
-  // Mencegah scroll di background saat modal terbuka
+  // Prevent scroll on background when modal is open
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -39,10 +39,10 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
     >
       {/* Modal Content */}
       <div
-        onClick={(e) => e.stopPropagation()} // Mencegah modal tertutup saat diklik di dalam
+        onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicked inside
         className={`bg-zinc-900 border border-violet-500/50 rounded-2xl shadow-2xl shadow-violet-500/20 w-full max-w-lg transform transition-transform duration-300 ${isClosing ? 'animate-out' : 'animate-in'}`}
       >
-        {/* --- GAMBAR PROYEK --- */}
+        {/* --- PROJECT IMAGE --- */}
         <img 
           src={project.image} 
           alt={project.title} 
@@ -60,7 +60,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                 </button>
             </div>
 
-            {/* --- DESKRIPSI LENGKAP --- */}
+            {/* --- FULL DESCRIPTION --- */}
             <p className="text-zinc-300 text-base leading-relaxed">
                 {project.fullDescription}
             </p>
@@ -71,12 +71,12 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                 rel="noopener noreferrer"
                 className="mt-4 inline-flex items-center justify-center gap-2 font-semibold bg-violet-600 p-3 px-5 rounded-full w-full cursor-pointer border border-transparent hover:bg-violet-700 transition-colors"
             >
-                <FiGithub />
-                <span>Source Code</span>
+                <FiExternalLink />
+                <span>Website Link</span>
             </a>
         </div>
       </div>
-       {/* CSS untuk animasi */}
+       {/* CSS for animation */}
       <style>{`
         @keyframes scaleIn {
           from { transform: scale(0.95); opacity: 0; }

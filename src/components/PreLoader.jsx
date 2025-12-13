@@ -10,13 +10,13 @@ const PreLoader = () => {
 
   useEffect(() => {
     if (countDone) {
-      // Fade teks
+      // Fade text
       const fadeTextTimer = setTimeout(() => setFadeText(true), 3000)
 
-      // Fade seluruh screen
+      // Fade entire screen
       const fadeScreenTimer = setTimeout(() => setFadeScreen(true), 2000)
 
-      // Unmount preloader setelah animasi fade selesai
+      // Unmount preloader after fade animation is complete
       const hideTimer = setTimeout(() => setLoading(false), 3000)
 
       return () => {

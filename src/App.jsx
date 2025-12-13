@@ -246,6 +246,7 @@ function App() {
             itemScale={0.02}
             rotationAmount={0}
             blurAmount={0}
+            useWindowScroll={false}
           >
             <ScrollStackItem>
               <div className="h-full grid md:grid-cols-2 gap-6 items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-once="true">

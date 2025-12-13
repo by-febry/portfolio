@@ -150,7 +150,7 @@ export const listProject = [
     fullDescription:"OneTapp is a modern networking platform that revolutionizes how people connect. Whether through NFC cards, digital profiles, or smart connections, OneTapp enables seamless networking however, whenever, wherever. The platform combines cutting-edge technology with intuitive design to create meaningful connections in the digital age. Built with React, Next.js, and modern web technologies, OneTapp provides users with a comprehensive dashboard for managing their professional network, bookings, analytics, and more.",
     borderColor: "#FF6B35",
     gradient: "linear-gradient(145deg, #FF6B35, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://www.one-tapp.com",
     dad: "100",
   },
 ];
