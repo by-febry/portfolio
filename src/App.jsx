@@ -237,7 +237,7 @@ function App() {
         {/* Lenis Scroll Stack - Certificates */}
         <div className="mt-32">
           <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Certificates</h1>
-          <p className="text-base/loose text-center opacity-50 mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">My professional certifications and achievements</p>
+          <p className="text-base/loose text-center opacity-50 mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">My certifications and achievements</p>
           <ScrollStack
             itemDistance={200}
             itemStackDistance={30}
