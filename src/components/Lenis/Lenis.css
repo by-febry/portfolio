@@ -23,6 +23,7 @@
   .scroll-stack-inner {
     padding: 2rem 5rem 10rem;
     min-height: 200vh;
+    position: relative;
   }
   
   .scroll-stack-card-wrapper {
@@ -31,9 +32,8 @@
   
   .scroll-stack-card {
     transform-origin: top center;
-    will-change: transform, filter;
+    will-change: transform, filter, z-index;
     backface-visibility: hidden;
-    transform-style: preserve-3d;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     min-height: 20rem;
     width: 100%;
@@ -48,6 +48,7 @@
     transform: translateZ(0);
     position: relative;
     opacity: 1 !important;
+    overflow: visible;
   }
   
   .scroll-stack-end {

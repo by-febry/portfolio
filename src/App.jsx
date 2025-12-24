@@ -249,7 +249,7 @@ function App() {
             useWindowScroll={false}
           >
             <ScrollStackItem>
-              <div className="h-full grid md:grid-cols-2 gap-6 items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-once="true">
+              <div className="h-full grid md:grid-cols-2 gap-6 items-center">
                 <div>
                   <h3 className="text-3xl font-bold mb-3">React</h3>
                   <p className="text-sm opacity-70">Certificate of completion for React.</p>
@@ -258,7 +258,7 @@ function App() {
               </div>
             </ScrollStackItem>
             <ScrollStackItem>
-              <div className="h-full grid md:grid-cols-2 gap-6 items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">
+              <div className="h-full grid md:grid-cols-2 gap-6 items-center">
                 <div>
                   <h3 className="text-3xl font-bold mb-3">Software Engineering</h3>
                   <p className="text-sm opacity-70">Certificate of completion for Software Engineering.</p>
@@ -267,7 +267,7 @@ function App() {
               </div>
             </ScrollStackItem>
             <ScrollStackItem>
-              <div className="h-full grid md:grid-cols-2 gap-6 items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">
+              <div className="h-full grid md:grid-cols-2 gap-6 items-center">
                 <div>
                   <h3 className="text-3xl font-bold mb-3">HTML & CSS</h3>
                   <p className="text-sm opacity-70">Certificate of completion for HTML & CSS.</p>
@@ -276,7 +276,7 @@ function App() {
               </div>
             </ScrollStackItem>
             <ScrollStackItem>
-              <div className="h-full grid md:grid-cols-2 gap-6 items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">
+              <div className="h-full grid md:grid-cols-2 gap-6 items-center">
                 <div>
                   <h3 className="text-3xl font-bold mb-3">JavaScript</h3>
                   <p className="text-sm opacity-70">Certificate of completion for JavaScript.</p>
@@ -285,7 +285,7 @@ function App() {
               </div>
             </ScrollStackItem>
             <ScrollStackItem>
-              <div className="h-full grid md:grid-cols-2 gap-6 items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500" data-aos-once="true">
+              <div className="h-full grid md:grid-cols-2 gap-6 items-center">
                 <div>
                   <h3 className="text-3xl font-bold mb-3">DevOps</h3>
                   <p className="text-sm opacity-70">Certificate of completion for DevOps.</p>
@@ -294,7 +294,7 @@ function App() {
               </div>
             </ScrollStackItem>
             <ScrollStackItem>
-              <div className="h-full grid md:grid-cols-2 gap-6 items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600" data-aos-once="true">
+              <div className="h-full grid md:grid-cols-2 gap-6 items-center">
                 <div>
                   <h3 className="text-3xl font-bold mb-3">GitHub</h3>
                   <p className="text-sm opacity-70">Certificate of completion for GitHub.</p>
@@ -303,7 +303,7 @@ function App() {
               </div>
             </ScrollStackItem>
             <ScrollStackItem>
-              <div className="h-full grid md:grid-cols-2 gap-6 items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="700" data-aos-once="true">
+              <div className="h-full grid md:grid-cols-2 gap-6 items-center">
                 <div>
                   <h3 className="text-3xl font-bold mb-3">Node.js</h3>
                   <p className="text-sm opacity-70">Certificate of completion for Node.js.</p>
