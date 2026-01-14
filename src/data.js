@@ -22,6 +22,12 @@ import Tools16 from "/assets/tools/ts.png";
 import Tools17 from "/assets/tools/php.png";
 import Tools18 from "/assets/tools/vite.png";
 import Tools19 from "/assets/tools/mysql.png";
+import Tools20 from "/assets/tools/n8n.png";
+import Tools21 from "/assets/tools/zapier.png";
+import Tools22 from "/assets/tools/python.png";
+import Tools23 from "/assets/tools/java.png";
+import Tools24 from "/assets/tools/mongodb.png";
+import Tools25 from "/assets/tools/postgresql.png";
 
 
 export const listTools = [
@@ -134,8 +140,50 @@ export const listTools = [
     id: 19,
     gambar: Tools19,
     nama: "MySql",
-    ket: "Framework",
+    ket: "Database",
     dad: "1900",
+  },
+  {
+    id: 20,
+    gambar: Tools20,
+    nama: "n8n",
+    ket: "Automation",
+    dad: "2000",
+  },
+  {
+    id: 21,
+    gambar: Tools21,
+    nama: "Zapier",
+    ket: "Automation",
+    dad: "2100",
+  },
+  {
+    id: 22,
+    gambar: Tools22,
+    nama: "Python",
+    ket: "Language",
+    dad: "2200",
+  },
+  {
+    id: 23,
+    gambar: Tools23,
+    nama: "Java",
+    ket: "Language",
+    dad: "2300",
+  },
+  {
+    id: 24,
+    gambar: Tools24,
+    nama: "MongoDB",
+    ket: "Database",
+    dad: "2400",
+  },
+  {
+    id: 25,
+    gambar: Tools25,
+    nama: "PostgreSQL",
+    ket: "Database",
+    dad: "2500",
   },
 ];
 
@@ -159,7 +207,7 @@ export const listProject = [
     image: Tidal,
     title: "TIDAL Solutions",
     subtitle: "AI-powered automation that creates waves in business efficiency...",
-    fullDescription: "TIDAL Solutions is a landing page for an AI automation business that builds intelligent systems to streamline operations and eliminate repetitive tasks. The site features a sleek, modern design with a contact form powered by n8n automation for seamless lead capture. Services include workflow automation, AI chatbots, data processing, content generation, CRM automation, and system integrations. Built with a focus on converting visitors into clients through clear messaging and smooth user experience.",
+    fullDescription: "A sample project demonstrating landing page design with n8n automation integration. This tryout task showcases a modern, sleek interface for an AI automation business concept, featuring a contact form with automated workflow triggers. Built to practice front-end design principles and automation tool integration.",
     borderColor: "#14F4C9",
     gradient: "linear-gradient(145deg, #14F4C9, #0a1628)",
     url: "https://tidal-gules.vercel.app",
