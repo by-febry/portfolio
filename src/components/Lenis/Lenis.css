@@ -21,7 +21,7 @@
   }
   
   .scroll-stack-inner {
-    padding: 2rem 5rem 10rem;
+    padding: 0.5rem 5rem 10rem;
     min-height: 200vh;
     position: relative;
   }

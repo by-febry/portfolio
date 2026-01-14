@@ -140,6 +140,7 @@ export const listTools = [
 ];
 
 import OneTapp from "/assets/project/One-tapp.png";
+import Tidal from "/assets/project/Tidal.png";
 
 export const listProject = [
   {
@@ -152,5 +153,16 @@ export const listProject = [
     gradient: "linear-gradient(145deg, #FF6B35, #000)",
     url: "https://www.one-tapp.com",
     dad: "100",
+  },
+  {
+    id: 2,
+    image: Tidal,
+    title: "TIDAL Solutions",
+    subtitle: "AI-powered automation that creates waves in business efficiency...",
+    fullDescription: "TIDAL Solutions is a landing page for an AI automation business that builds intelligent systems to streamline operations and eliminate repetitive tasks. The site features a sleek, modern design with a contact form powered by n8n automation for seamless lead capture. Services include workflow automation, AI chatbots, data processing, content generation, CRM automation, and system integrations. Built with a focus on converting visitors into clients through clear messaging and smooth user experience.",
+    borderColor: "#14F4C9",
+    gradient: "linear-gradient(145deg, #14F4C9, #0a1628)",
+    url: "https://tidal-gules.vercel.app",
+    dad: "200",
   },
 ];

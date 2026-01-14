@@ -138,7 +138,7 @@ function App() {
                 </h2>
 
                 <BlurText
-                  text="I'm Christian Mark Panopio, a 4th-year IT student and aspiring full-stack developer who enjoys building modern, functional, and user-friendly applications. I leverage AI tools to boost my productivity, learn faster, and create smarter solutions. I may still be early in my journey, with one completed project so far, but I’m always eager to learn new technologies, improve my skills, and take on projects that help me grow as a developer. My goal is to build practical, clean, and scalable digital products that make an impact."
+                  text="I'm Christian Mark Panopio, a 4th-year IT student and aspiring full-stack developer who enjoys building modern, functional, and user-friendly applications. I leverage AI tools to boost my productivity, learn faster, and create smarter solutions. I may still be early in my journey, but I'm always eager to learn new technologies, improve my skills, and take on projects that help me grow as a developer. My goal is to build practical, clean, and scalable digital products that make an impact."
                   delay={150}
                   animateBy="words"
                   direction="top"
@@ -148,9 +148,9 @@ function App() {
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      1<span className="text-violet-500"></span>
+                      2<span className="text-violet-500"></span>
                     </h1>
-                    <p>Project Finished</p>
+                    <p>Projects Finished</p>
                   </div>
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
@@ -237,7 +237,7 @@ function App() {
         {/* Lenis Scroll Stack - Certificates */}
         <div className="mt-32">
           <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Certificates</h1>
-          <p className="text-base/loose text-center opacity-50 mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">My certifications and achievements</p>
+          <p className="text-base/loose text-center opacity-50 mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">My certifications and achievements</p>
           <ScrollStack
             itemDistance={200}
             itemStackDistance={30}
