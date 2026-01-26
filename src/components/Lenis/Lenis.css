@@ -55,4 +55,52 @@
     width: 100%;
     height: 1px;
   }
+
+  /* Tablet breakpoint */
+  @media (max-width: 1024px) {
+    .scroll-stack-inner {
+      padding: 0.5rem 3rem 8rem;
+    }
+
+    .scroll-stack-card {
+      padding: 2rem;
+      border-radius: 30px;
+      min-height: 16rem;
+      margin: 24px 0;
+    }
+  }
+
+  /* Mobile breakpoint */
+  @media (max-width: 768px) {
+    .scroll-stack-scroller {
+      max-height: none;
+    }
+
+    .scroll-stack-inner {
+      padding: 0.5rem 1.25rem 6rem;
+      min-height: 180vh;
+    }
+
+    .scroll-stack-card {
+      padding: 1.5rem;
+      border-radius: 20px;
+      min-height: 12rem;
+      margin: 20px 0;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  /* Small mobile breakpoint */
+  @media (max-width: 480px) {
+    .scroll-stack-inner {
+      padding: 0.5rem 1rem 5rem;
+    }
+
+    .scroll-stack-card {
+      padding: 1.25rem;
+      border-radius: 16px;
+      min-height: 10rem;
+      margin: 16px 0;
+    }
+  }
   

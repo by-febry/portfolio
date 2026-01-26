@@ -132,8 +132,8 @@ export default function Dock({
         }}
         className={`dock-panel ${className}`}
         style={{
-          height: panelHeight, // tinggi tetap
-          overflow: "visible", // icon bisa keluar area
+          height: panelHeight, // fixed height
+          overflow: "visible", // icon can be outside area
         }}
         role="toolbar"
       >
